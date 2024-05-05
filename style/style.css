@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.main{
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.img2{
+    width: 1110px;
+    height: 450px;
+    
+}
+
+.p1{
+    color: #4581B7;
+    text-align: flex-start;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.p2{
+    background: var(--grey, #F0F0F0);
+    width: 650px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 95px;
+}
+
+.p3{
+    color: #4581B7;
+text-align: flex-start;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.p4{
+    color: #808080;
+
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+}
+
+.card_p{
+    display: flex;
+}
+
+.page{
+    width: 730px;
+    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 95px;
+    background: var(--grey, #F0F0F0);
+}
+
+.page2{
+    margin-left: 30px;
+    background: var(--grey, #F0F0F0);
+    width: 350px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 24px;
+}
+
+.footer1{
+    padding-left: 20px;
+    margin-top: 35px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    background-color: #F0F0F0;
+}
+
+
+
+.card2{
+    color: #808080;
+
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.img2{
+    margin-top: 30px;
+margin-bottom:30px ; 
+
+}
+
+.img3{
+    width: 254px;
+height: 120px;
+flex-shrink: 0;
+}
+
+.p_row{
+    color: #808080;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.header{
+    animation: anima 2s ease-in-out infinite;
+}
+
+
+
+@keyframes anima {
+    0% {
+        background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,22,255,1) 100%);
+
+    }
+
+    50%{
+        background: linear-gradient(90deg, rgba(4,0,255,1) 0%, rgba(255,0,0,1) 100%);
+
+    }
+    75%{
+        background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,22,255,1) 100%);
+
+    }
+
+    100%{
+        background: linear-gradient(90deg, rgba(4,0,255,1) 0%, rgba(255,0,0,1) 100%);
+
+    }
+}
